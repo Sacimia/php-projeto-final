@@ -1,0 +1,9 @@
+header{
+    height: 70px;
+    width: 100%;
+    background-color: aqua;
+    font-size: 10px;
+    justify-content: center;
+    align-content: space-around;
+    position: block;
+}

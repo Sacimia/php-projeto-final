@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/front end/css/cadastro/cadastro.css">
+    <title>Cadastro</title>
+    <script href="/front end/js/validacao_cadastro/idade.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+       <strong>ALL</strong>
+    </header>
+    <form action="">
+        <div class="main">
+            Nome
+            <br>
+            <input type="text" placeholder="Nome" class="nome2">
+        </div>
+        <br>
+        <div class="sobrenome">
+            Sobrenome
+            <br>
+            <input type="text"  placeholder="Sobrenome" class="sobrenome2">
+        </div>
+        <br>
+
+        <labe for="">Seleciona o sexo</label>
+        <select name="sexo" id="sexo">
+                <option value="masculino">
+                    Masculino
+                </option>
+                <option value="sexo" id="sexo">
+                    Feminino
+                </option>
+            </select>
+         <br>
+         <p>Data de nascimento  </p><input onchange="datadeNascimento(this.value);" id="datadeNascimento" type="date">
+        </div>
+        
+    <input onchange="idade(this.value)">
+
+        <button type="submit" value="" placeholder="">Enviar</button>
+    </form>
+    <script href="/front end/js/validacao_cadastro/validacao-sexo/idade.js"></script>
+</body>
+</html>
